@@ -1,0 +1,19 @@
+.time-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 5px;
+  width: 200px; }
+  .time-container .minute {
+    margin: 2px !important;
+    padding: 0 !important;
+    min-width: 22% !important;
+    line-height: 30px !important; }
+    .time-container .minute .mark {
+      background: #dddddd;
+      padding: 2px 4px;
+      border-radius: 2px; }
+  .time-container .date-now {
+    background-color: #c8ecca !important; }
+  .time-container .checked {
+    background-color: #b8dbf7 !important; }
