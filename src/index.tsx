@@ -1,3 +1,11 @@
-import './index.scss';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
+import registerServiceWorker from './registerServiceWorker';
 
-export {default as DateTimePicker} from './components/DateTimePicker/DateTimePicker';
+ReactDOM.render(
+  <App />,
+  document.getElementById('root') as HTMLElement
+);
+registerServiceWorker();
